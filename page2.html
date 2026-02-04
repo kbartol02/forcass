@@ -35,6 +35,15 @@ body {
   border-color: #00000000;
   color: white;
 }
+.blink_me {
+  animation: blinker 0.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 
 .button2:hover {
   background-color: green;
@@ -57,6 +66,9 @@ body {
 <body>
 <div style="border: 2px solid black; padding: 10px; background-color: pink">
 <h2 style="text-align: center;">ARE YOU SURE????</h2>
+</div>
+<div class="blink_me">
+<button class="button button2">yes</button></a>
 </div>
 </body>
 </html>
