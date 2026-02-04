@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-repeat: repeat-xy;
+  background-size: 25%; 
+    background-image:  url("https://64.media.tumblr.com/c039e0d05272c8e16c14b315a510175b/tumblr_oblt0e4IVG1vx777ao1_500.gif"),
+    url("https://kbartol02.github.io/forcass/IMG_4308.jpeg");
+}
+.button {
+  background-color: pink;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 60px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.button1 {border: 2px solid red;}
+.button1 {cursor: default;}
+
+.button2 {border: 2px solid green;}
+.button3 {border: 2px solid #f44336;}
+.button4 {border: 2px solid #e7e7e7;}
+.button5 {border: 2px solid #555555;}
+
+.button1:hover {
+  background-color: #00000000;
+  border-color: #00000000;
+  color: white;
+}
+.blink_me {
+  animation: blinker 0.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.button2:hover {
+  background-color: green;
+  color: white;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+.center-screen-grid {
+    display: grid;
+    place-items: center; /* Centers horizontally and vertically */
+    min-height: 50vh;
+}
+
+</style>
+</head>
+
+
+<body>
+<div style="border: 2px solid black; padding: 10px; background-color: pink">
+<h2 style="text-align: center;">YIPPEE!!!!</h2>
+</div>
+
+<div class="blink_me">
+
+<div class="center-screen-grid">
+<div class="button">
+I LOVE YOU
+</div>
+</div>
+</div>
+
+</body>
+</html>
